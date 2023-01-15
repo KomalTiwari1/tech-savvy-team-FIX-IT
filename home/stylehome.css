@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans&family=Poppins:wght@400;500&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans&family=Poppins:wght@400;500&family=Ubuntu:wght@500&display=swap');
+header img{
+    float:left;
+    width:140px;
+}
+body{
+    background-image: linear-gradient(to bottom, #74bbaf, #E6F4F1);
+}
+ 
+*{
+    margin:0px;
+    padding:0px;
+}
+button{
+    text-decoration: none;
+    border:0px;
+    border-radius: 4px;
+    padding:5px;
+    font-size:18px;
+    font-weight:bolder;
+    text-align: center;
+    color:black;
+    transition:all .2s;
+    box-shadow: 5px 5px 5px -1px black;
+    background-color: white;
+    position:relative; left:80vw;
+   
+}
+button:hover{
+    padding: 6px;
+    cursor:pointer;
+    font-size:21px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+ 
+header{
+    display:flex;
+    align-items: center;
+    font-size:20px;
+}
+.contents{
+    width:100vw;
+    display:flex;
+    justify-content: center;+
+ 
+ 
+}
+.container{
+    margin:15px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:black;
+    font-size:60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content1, .content2, .content3{
+   
+    text-align: center;
+    padding:25px;
+    margin:5%;
+    font-size:35px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #488A7C;
+    color:white;
+    width:33%;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition:all 0.3s;
+    cursor:pointer;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+ 
+.content1:hover, .content2:hover, .content3:hover{
+    padding:35px;
+    font-size:45px;
+    color:black;
+    background-image:linear-gradient(to right, white, rgb(190, 165, 144));
+}
+ 
+ 
+footer{
+    position:relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top:80px;
+    overflow: hidden;
+    display: flex;
+    margin:7px;
+    margin-left: 0px;
+    margin-right:0px;
+    padding-top:10px;
+    background-color:#4D8076;
+}
+.footer{
+    display:flex;
+    width:100vw;
+   
+}
+footer .email{
+    color:rgb(255, 213, 162);
+    text-align: left;
+    position:relative;
+    left:10px;
+    font-size:18px;
+    display:flex;
+ 
+    top:10px;
+}
+footer .phone{
+    color:black;
+    text-align: left;
+    position:relative;
+    left:80px;
+    font-size:18px;
+    color:rgb(255, 213, 162);
+    top:10px;
+ 
+}
+footer .address{
+    color:black;
+    text-align: left;
+    color:rgb(255, 213, 162);
+    position:relative;
+    left:160px;
+    font-size:18px;
+    top:10px;
+}
+footer .suggform{
+    position:relative;
+    left:260px;
+    padding:20px;
+    padding-top:0px;
+    margin-bottom: 0px;
+}
+footer .suggform input[type="text"], input[type="email"]{
+    width:88%;
+    font-size:15px;
+    border-radius: 4px;
+    border-color: none;
+    background-color: transparent;
+}
+::placeholder{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .suggform input, footer .suggform textarea{
+    margin:2px;
+    padding:5px;
+    border-radius: 4px;
+}
+footer.together{
+    width:45%;
+}
+footer .suggform textarea{
+    width:88%;
+    background-color: transparent;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px outset black;
+    font-size:13px;
+}
+footer .suggform .together{
+    display:flex;
+    float:left;
+}
+.aboutus{
+    margin-top:200px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 1.2s;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    word-spacing: 2px;
+    padding:20px;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.aboutus:hover{
+    background-image:linear-gradient(to top rgba(124, 215, 217, 0.454), rgba(235, 235, 235, 0.45));
+    color:rgb(10, 12, 9);
+    transform: scale(0.9);
+}
+ 
+#word{
+    margin-bottom:20px;
+    font-weight:bolder;
+    font-size:50px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:5px 5px 5px rgba(135, 48, 48, 0.74);
+}
+.image{
+    margin:140px 0px;
+}
+ 
+ 
+    float:left;
+    width:140px;
+}
+body{
+    background-image: linear-gradient(to bottom, #74bbaf, #E6F4F1);
+}
+ 
+*{
+    margin:0px;
+    padding:0px;
+}
+button{
+    text-decoration: none;
+    border:0px;
+    border-radius: 4px;
+    padding:5px;
+    font-size:18px;
+    font-weight:bolder;
+    text-align: center;
+    color:black;
+    transition:all .2s;
+    box-shadow: 5px 5px 5px -1px black;
+    background-color: white;
+    position:relative; left:80vw;
+   
+}
+button:hover{
+    padding: 6px;
+    cursor:pointer;
+    font-size:21px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+ 
+header{
+    display:flex;
+    align-items: center;
+    font-size:20px;
+}
+.contents{
+    width:100vw;
+    display:flex;
+    justify-content: center;+
+ 
+ 
+}
+.container{
+    margin:15px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:black;
+    font-size:60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content1, .content2, .content3{
+   
+    text-align: center;
+    padding:25px;
+    margin:5%;
+    font-size:35px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #488A7C;
+    color:white;
+    width:33%;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition:all 0.3s;
+    cursor:pointer;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+ 
+.content1:hover, .content2:hover, .content3:hover{
+    padding:35px;
+    font-size:45px;
+    color:black;
+    background-image:linear-gradient(to right, white, rgb(190, 165, 144));
+}
+ 
+ 
+footer{
+    position:relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top:80px;
+    overflow: hidden;
+    display: flex;
+    margin:7px;
+    margin-left: 0px;
+    margin-right:0px;
+    padding-top:10px;
+    background-color:#4D8076;
+}
+.footer{
+    display:flex;
+    width:100vw;
+   
+}
+footer .email{
+    color:rgb(255, 213, 162);
+    text-align: left;
+    position:relative;
+    left:10px;
+    font-size:18px;
+    display:flex;
+ 
+    top:10px;
+}
+footer .phone{
+    color:black;
+    text-align: left;
+    position:relative;
+    left:80px;
+    font-size:18px;
+    color:rgb(255, 213, 162);
+    top:10px;
+ 
+}
+footer .address{
+    color:black;
+    text-align: left;
+    color:rgb(255, 213, 162);
+    position:relative;
+    left:160px;
+    font-size:18px;
+    top:10px;
+}
+footer .suggform{
+    position:relative;
+    left:260px;
+    padding:20px;
+    padding-top:0px;
+    margin-bottom: 0px;
+}
+footer .suggform input[type="text"], input[type="email"]{
+    width:88%;
+    font-size:15px;
+    border-radius: 4px;
+    border-color: none;
+    background-color: transparent;
+}
+::placeholder{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .suggform input, footer .suggform textarea{
+    margin:2px;
+    padding:5px;
+    border-radius: 4px;
+}
+footer.together{
+    width:45%;
+}
+footer .suggform textarea{
+    width:88%;
+    background-color: transparent;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px outset black;
+    font-size:13px;
+}
+footer .suggform .together{
+    display:flex;
+    float:left;
+}
+.aboutus{
+    margin-top:200px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: box-shadow 0.3s,
+                color 1.2s;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    word-spacing: 2px;
+    padding:20px;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.aboutus:hover{
+    background-image:linear-gradient(to top, rgba(164, 143, 165, 0.514), rgba(141, 82, 82, 0.45));
+    color:rgb(10, 12, 9);
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+ 
+#word{
+    margin-bottom:20px;
+    font-weight:bolder;
+    font-size:50px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:5px 5px 5px rgba(135, 48, 48, 0.74);
+}
+.image{
+    margin:140px 0px;
+}
+ 
+

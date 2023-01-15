@@ -1,0 +1,68 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family:sans-serif;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.box{
+  width: 500px;
+  padding:70px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  background:rgba(0, 0, 0, 0.4);
+  text-align:center;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  border-radius: 10px;
+  box-shadow:-30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box h1{
+  font-weight:700;
+  color:white;
+  font-size:55px;
+}
+.box input[type="text"]{
+  background-image:linear-gradient(to right, white, pink) ;
+  display:block;
+  margin:20px auto;
+  text-align:center;
+  box-shadow:-30px 30px 20px rgba(0, 0, 0, 0.3)  ;
+  padding:14px 10px;
+  width:220px;
+  outline:none;
+  color:black;
+  border-radius:24px;
+  transition:0.25px;
+}
+.box input[type="text"]:focus{
+  width:270px;
+  border-color:orange;
+}
+.box input[type="submit"]
+{
+  background:none;
+  display:block;
+  border:0;
+  margin:20px auto;
+  text-align:center;
+  border:3px solid orange;
+  padding:14px 35px;
+  outline:none;
+  color:white;
+  border-radius: 24px;
+  transition:0.25px;
+  transition:all 0.3s;
+  cursor:pointer;
+  box-shadow:-30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box input[type="submit"]:hover{
+  background:orange;
+  padding:16px 37px;
+}
+inline .sarojini{
+  position:relative;
+  right:10px;
+}
